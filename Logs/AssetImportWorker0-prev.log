@@ -1,0 +1,615 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'vi' Physical Memory: 3961 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Game/LearnUnity2D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64703
+Successfully changed project path to: D:/Game/LearnUnity2D
+D:/Game/LearnUnity2D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 220.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game/LearnUnity2D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) 520 (ID=0x6665)
+    Vendor:   ATI
+    VRAM:     2039 MB
+    Driver:   27.20.20904.4000
+Initialize mono
+Mono path[0] = 'D:/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009213 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 199.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.367 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1368ms)
+		BeginReloadAssembly (244ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (969ms)
+			LoadAssemblies (246ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (677ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (287ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (200ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006027 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game\LearnUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game\LearnUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 111.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.927 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1927ms)
+		BeginReloadAssembly (312ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (1483ms)
+			LoadAssemblies (377ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (701ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (404ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.7 KB). Loaded Objects now: 4597.
+Memory consumption went from 155.1 MB to 155.0 MB.
+Total: 4.870700 ms (FindLiveObjects: 0.376700 ms CreateObjectMapping: 0.291100 ms MarkObjects: 4.081300 ms  DeleteObjects: 0.120500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 147362.068410 seconds.
+  path: Assets/!GET_MORE_ASSETS_FOR_FREE/DEV FREEDOM.txt
+  artifactKey: Guid(1aa5e515bb5dad84ba632109b94013d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!GET_MORE_ASSETS_FOR_FREE/DEV FREEDOM.txt using Guid(1aa5e515bb5dad84ba632109b94013d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25db6b9ec68f3e997300678d4266e539') in 1.584062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 172.102427 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Example
+  artifactKey: Guid(45c3bae1b06f2ec40a71fda0d882a130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Example using Guid(45c3bae1b06f2ec40a71fda0d882a130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912db01b706a1e3b3bdd947e1eee8e36') in 0.023225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.302658 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Example/CharacterEditor.png
+  artifactKey: Guid(18615bd37f0ced040a4f1e5eb7a1a072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Example/CharacterEditor.png using Guid(18615bd37f0ced040a4f1e5eb7a1a072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad04ddde7aaeda82cd71d3ba5ff5385') in 1.729968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.296372 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Example/bg.png
+  artifactKey: Guid(fb08f98c62a59784cb59590ab191bb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Example/bg.png using Guid(fb08f98c62a59784cb59590ab191bb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df81385c8ed08ef76799bb4f735be53') in 0.331992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.732609 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Example/ExampleScene.unity
+  artifactKey: Guid(85b3e8a0893d38b409e85cc8e2f0c6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Example/ExampleScene.unity using Guid(85b3e8a0893d38b409e85cc8e2f0c6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc69e489e552906327d8f868d3dff31') in 0.010737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.575704 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/palettes/Medieval_pixel_art_tileset_free.prefab
+  artifactKey: Guid(24d7ac66bf388d14186f825aca992a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_pixel_art_asset_FREE/palettes/Medieval_pixel_art_tileset_free.prefab using Guid(24d7ac66bf388d14186f825aca992a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513e6c43f87fec3e9b48324bb8bf1a3f') in 0.361925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.617564 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_5.prefab
+  artifactKey: Guid(38d22e1553bfb7943b9544b849dee0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_5.prefab using Guid(38d22e1553bfb7943b9544b849dee0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7583095f6883a5b504eb2dc2239c4067') in 0.080487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.784925 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_4.prefab
+  artifactKey: Guid(5f00a24494233a242bb7397e971a1e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_4.prefab using Guid(5f00a24494233a242bb7397e971a1e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3c5a975b52f822898e8e153c0bbd6c') in 0.023982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.475169 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_2.prefab
+  artifactKey: Guid(d10cbe6b249ddc34db2eae14d2ae9f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_2.prefab using Guid(d10cbe6b249ddc34db2eae14d2ae9f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807dd9d4530a885313e574dda526c958') in 0.017896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.503486 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_6.prefab
+  artifactKey: Guid(df0d65b074ba11d458504137470c01e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_6.prefab using Guid(df0d65b074ba11d458504137470c01e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf041125d6c56b834d9039c8daa3f3ff') in 0.022189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.456753 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_11.prefab
+  artifactKey: Guid(d74fca2a20f3b9a4cbd82b9ff4ba2891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_11.prefab using Guid(d74fca2a20f3b9a4cbd82b9ff4ba2891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e8038e3d518c37bca6c52ece742745') in 0.022789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.528068 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_16.prefab
+  artifactKey: Guid(ad8aee53221f9c44bb741edfa9bbafe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_16.prefab using Guid(ad8aee53221f9c44bb741edfa9bbafe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2a1bfb154825475fe9fd91c308c9e4') in 0.018570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.512447 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_19.prefab
+  artifactKey: Guid(44054954b77510d47b1fcbe02bebc579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Prefabs/Props_free/Medieval_props_free_19.prefab using Guid(44054954b77510d47b1fcbe02bebc579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e63b3dcf8229b99089099cd7118b55') in 0.023340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.214530 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Scenes/demo_scene_FREE.unity
+  artifactKey: Guid(f2120731c167b44499fb4a0263fa8368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Scenes/demo_scene_FREE.unity using Guid(f2120731c167b44499fb4a0263fa8368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd52af7cddea12d49573325f7a9431e') in 0.018430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.415406 seconds.
+  path: Assets/Medieval_pixel_art_asset_FREE/Scenes/props_showcase_scene_FREE.unity
+  artifactKey: Guid(de603b1175e67da4395394e7b7a2bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_pixel_art_asset_FREE/Scenes/props_showcase_scene_FREE.unity using Guid(de603b1175e67da4395394e7b7a2bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc04eb396b3e5cda4b648a1e1373ecdc') in 0.016340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.645610 seconds.
+  path: Assets/Scenes/GamePlay.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GamePlay.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fbbda1a45d33e3425d7fa25815063a') in 0.010881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.134800 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Example/RoundedSq.png
+  artifactKey: Guid(d79ead0bd707d58419a47c1cab5a04f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Example/RoundedSq.png using Guid(d79ead0bd707d58419a47c1cab5a04f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545f5ab872f0a5c37a98e2fbe1e47568') in 0.029042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.679374 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Prefabs/Monster_1_Salamander.prefab
+  artifactKey: Guid(e0dc5b9c5a1759b4983be5f02a62649c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Prefabs/Monster_1_Salamander.prefab using Guid(e0dc5b9c5a1759b4983be5f02a62649c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed65814b2af2a953b6c16c7e9dcf9160') in 0.020100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.937294 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Prefabs/Monster_2_Skulled Salamander.prefab
+  artifactKey: Guid(a1188405d2541df40a1d9520d61b68c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Prefabs/Monster_2_Skulled Salamander.prefab using Guid(a1188405d2541df40a1d9520d61b68c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1bbb44b958c45f6cde4c239f6a3158') in 0.016302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.529554 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Prefabs/Monster_3_Charged Salamander.prefab
+  artifactKey: Guid(7253769246ce6444abea384dc4a21761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Prefabs/Monster_3_Charged Salamander.prefab using Guid(7253769246ce6444abea384dc4a21761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70979a571d6994b00b2ce277e2777c5') in 0.021028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.605849 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Prefabs/Monster_5_Yeti.prefab
+  artifactKey: Guid(e306e19206531d247b708261851c2d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Prefabs/Monster_5_Yeti.prefab using Guid(e306e19206531d247b708261851c2d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4bf14f6270b04db11ff3037b693a6e') in 0.183166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.725348 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Source_Animations/Monster_1_Salamander/monster_small.atlas.txt
+  artifactKey: Guid(bdfe26547dd441c4a9eb09929bea6fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Source_Animations/Monster_1_Salamander/monster_small.atlas.txt using Guid(bdfe26547dd441c4a9eb09929bea6fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0992f06d24c0d5a8c1f80e2a61b489c1') in 0.040000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.142222 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Source_Animations/Monster_1_Salamander/monster_small.json
+  artifactKey: Guid(0248e6e87e9dd3a43935920c89f900ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Source_Animations/Monster_1_Salamander/monster_small.json using Guid(0248e6e87e9dd3a43935920c89f900ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e23c39c89e130275625f0a31f4cb882') in 3.441950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.252490 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Source_Animations/Monster_56_57_58_59_Turtle/monster_16.png
+  artifactKey: Guid(58385e28e843b2843a2eae3641ba3303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Source_Animations/Monster_56_57_58_59_Turtle/monster_16.png using Guid(58385e28e843b2843a2eae3641ba3303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f27e89e44282c88f0fb19609e3d4b4') in 0.041302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.295847 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/BODY.png
+  artifactKey: Guid(59836ccbc96a7c541b4b355b694adf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/BODY.png using Guid(59836ccbc96a7c541b4b355b694adf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc108b79d6cfddc4e3ffcdf33803136') in 0.034508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.572181 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/EKOR.png
+  artifactKey: Guid(da50558646349d2468801672832b265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/EKOR.png using Guid(da50558646349d2468801672832b265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b81362f7d6dabd8bdd96b2e1a6d7844') in 0.031134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.433935 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/EYE CLOSE.png
+  artifactKey: Guid(70619c9dcc980f6468b9b83967faaf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/EYE CLOSE.png using Guid(70619c9dcc980f6468b9b83967faaf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81ea2f8a0daeca744351148e1db03ed') in 0.028705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.423309 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/LEG 1 A.png
+  artifactKey: Guid(f4e576b38e7d56e4d8166d0c92261cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/LEG 1 A.png using Guid(f4e576b38e7d56e4d8166d0c92261cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2439c187a4bf51d7b600bc7f359178f0') in 0.027783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.763345 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/LEG 2 A.png
+  artifactKey: Guid(b3a0879930c2eb342bce2a43070f92dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/LEG 2 A.png using Guid(b3a0879930c2eb342bce2a43070f92dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846275e644da52dae5b95f06362104ca') in 0.032797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.407332 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/LEG 1 C.png
+  artifactKey: Guid(03562dd6e7aa4264a805bb7008174be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/LEG 1 C.png using Guid(03562dd6e7aa4264a805bb7008174be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f7cf86a3be1d278e2b3d6de3f01549') in 0.024881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.380075 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/LEG 2 B.png
+  artifactKey: Guid(1b47af980daabe34db3019556e08d863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/LEG 2 B.png using Guid(1b47af980daabe34db3019556e08d863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba60dc411dda8ef47d12fd183a5c7f7c') in 0.029701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.400837 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/TUSK.png
+  artifactKey: Guid(6ef9392701310084992ed8eca1d39ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Source_Spine/Monster_1_Salamander/images/TUSK.png using Guid(6ef9392701310084992ed8eca1d39ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964cb545a16f151afad91caa7c920cda') in 0.029916 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.068090 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game\LearnUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game\LearnUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 14.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.837 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10859ms)
+		BeginReloadAssembly (5901ms)
+			ExecutionOrderSort (2ms)
+			DisableScriptedObjects (700ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (4187ms)
+		EndReloadAssembly (4569ms)
+			LoadAssemblies (621ms)
+			RebuildTransferFunctionScriptingTraits (6ms)
+			SetupTypeCache (1132ms)
+			ReleaseScriptCaches (38ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (2800ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (66ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (15ms)
+				BeforeProcessingInitializeOnLoad (1146ms)
+				ProcessInitializeOnLoadAttributes (1420ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (7ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Shader 'Spine/Outline/Skeleton': fallback shader 'Spine/Skeleton' not found
+WARNING: Shader Unsupported: 'Spine/Outline/Skeleton' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Spine/Outline/Skeleton' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Spine/Outline/Blend Modes/Skeleton PMA Screen': fallback shader 'Spine/Blend Modes/Skeleton PMA Screen' not found
+WARNING: Shader Unsupported: 'Spine/Outline/Blend Modes/Skeleton PMA Screen' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Spine/Outline/Blend Modes/Skeleton PMA Screen' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Spine/Outline/Skeleton Tint Black': fallback shader 'Spine/Special/Skeleton Grayscale' not found
+WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Tint Black' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Tint Black' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Spine/Outline/SkeletonGraphic': fallback shader 'Spine/SkeletonGraphic' not found
+WARNING: Shader Unsupported: 'Spine/Outline/SkeletonGraphic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Spine/Outline/SkeletonGraphic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Spine/Outline/OutlineOnly-ZWrite': fallback shader 'Spine/Skeleton' not found
+Shader 'Spine/Outline/Special/Skeleton Grayscale': fallback shader 'Spine/Special/Skeleton Grayscale' not found
+WARNING: Shader Unsupported: 'Spine/Outline/Special/Skeleton Grayscale' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Spine/Outline/Special/Skeleton Grayscale' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Spine/Outline/Sprite/Vertex Lit': fallback shader 'Spine/Sprite/Vertex Lit' not found
+WARNING: Shader Unsupported: 'Spine/Outline/Sprite/Vertex Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Spine/Outline/Sprite/Vertex Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Spine/Outline/SkeletonGraphic Tint Black': fallback shader 'Spine/SkeletonGraphic Tint Black' not found
+WARNING: Shader Unsupported: 'Spine/Outline/SkeletonGraphic Tint Black' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Spine/Outline/SkeletonGraphic Tint Black' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Spine/Outline/Skeleton Lit ZWrite': fallback shader 'Spine/Skeleton Lit ZWrite' not found
+WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Lit ZWrite' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Lit ZWrite' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Spine/Outline/Skeleton Fill': fallback shader 'Spine/Skeleton Fill' not found
+WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Fill' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Fill' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Spine/Outline/Blend Modes/Skeleton PMA Additive': fallback shader 'Spine/Blend Modes/Skeleton PMA Additive' not found
+WARNING: Shader Unsupported: 'Spine/Outline/Blend Modes/Skeleton PMA Additive' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Spine/Outline/Blend Modes/Skeleton PMA Additive' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Spine/Outline/Skeleton Tint': fallback shader 'Spine/Skeleton Tint' not found
+WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Tint' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Spine/Outline/Skeleton Tint' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 26.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (3.9 MB). Loaded Objects now: 4861.
+Memory consumption went from 173.8 MB to 169.9 MB.
+Total: 102.628900 ms (FindLiveObjects: 7.894500 ms CreateObjectMapping: 1.217700 ms MarkObjects: 89.188300 ms  DeleteObjects: 4.326000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1406.983383 seconds.
+  path: Assets/Fantazia Animated 2D Monsters/Example/RoundedSq.png
+  artifactKey: Guid(d79ead0bd707d58419a47c1cab5a04f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantazia Animated 2D Monsters/Example/RoundedSq.png using Guid(d79ead0bd707d58419a47c1cab5a04f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd280dba1f28c21193a75693018be2556') in 1.163440 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010503 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game\LearnUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game\LearnUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.646 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4651ms)
+		BeginReloadAssembly (1494ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (120ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (763ms)
+		EndReloadAssembly (1951ms)
+			LoadAssemblies (919ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (498ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (708ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (470ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (3.9 MB). Loaded Objects now: 4864.
+Memory consumption went from 174.4 MB to 170.5 MB.
+Total: 12.542400 ms (FindLiveObjects: 0.752500 ms CreateObjectMapping: 0.443600 ms MarkObjects: 8.290900 ms  DeleteObjects: 3.053900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010905 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game\LearnUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game\LearnUnity2D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.255 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4264ms)
+		BeginReloadAssembly (1929ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (290ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (1032ms)
+		EndReloadAssembly (2146ms)
+			LoadAssemblies (633ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (778ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (768ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (13ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (453ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 205 unused Assets / (24.7 KB). Loaded Objects now: 4687.
+Memory consumption went from 160.9 MB to 160.9 MB.
+Total: 10.721000 ms (FindLiveObjects: 0.404100 ms CreateObjectMapping: 0.240800 ms MarkObjects: 9.952700 ms  DeleteObjects: 0.122200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
